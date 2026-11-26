@@ -20,7 +20,7 @@ pipeline {
 
         stage('Ejecutar') {
             steps {
-                sh 'python3 Converciones.py'
+                sh 'python3 Conversiones.py'
             }
         }
 
